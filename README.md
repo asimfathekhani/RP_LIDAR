@@ -45,3 +45,30 @@ Notice: the different is serial_baudrate between A1/A2 and A3
 RPLidar frame
 =====================================================================
 RPLidar frame must be broadcasted according to picture shown in rplidar-frame.png
+
+## Install
+
+Use the following commands to download and compile the package.
+
+```
+cd ~/catkin_ws/src
+git clone https://github.com/Saifali4604/LVI_SAM_Noetic
+cd ..
+catkin_make
+
+How to run rplidar ros package
+
+Check the authority of rplidar's serial-port :
+
+ls -l /dev |grep ttyUSB
+
+Add the authority of write: (such as /dev/ttyUSB0)
+
+sudo chmod 666 /dev/ttyUSB0
+
+There're two ways to run rplidar ros package
+I. Run rplidar node and view in the rviz
+
+roslaunch rplidar_ros view_rplidar.launch
+
+You should see rplidar's scan result in the rviz.
