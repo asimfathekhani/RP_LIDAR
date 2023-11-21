@@ -42,12 +42,9 @@ You should see rplidar's scan result in the console
 
 Notice: the different is serial_baudrate between A1/A2 and A3
 
-RPLidar frame
-=====================================================================
-RPLidar frame must be broadcasted according to picture shown in rplidar-frame.png
+
 
 ## Install
-
 Use the following commands to download and compile the package.
 
 ```
