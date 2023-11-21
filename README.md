@@ -56,8 +56,8 @@ git clone https://github.com/Saifali4604/LVI_SAM_Noetic
 cd ..
 catkin_make
 
-How to run rplidar ros package
-
+## How to run rplidar ros package
+=====================================================================
 Check the authority of rplidar's serial-port :
 
 ls -l /dev |grep ttyUSB
